@@ -1,0 +1,13 @@
+{
+  "type": "postgres",
+  "host": "127.0.0.1",
+  "port": 5432,
+  "username": "docker",
+  "password": "docker",
+  "database": "graphql",
+  "entities": ["dist/**/*.model.js"],
+  "migrations": ["dist/database/migrations/*.js"],
+  "cli": {
+    "migrationsDir": "src/database/migrations"
+  }
+}
